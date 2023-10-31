@@ -15,7 +15,7 @@ A simple calculator application for performing basic arithmetic operations.
 
 ## Demo
 
-You can try out the live demo of the Basic Calculator here: [Demo Link]()
+You can try out the live demo of the Basic Calculator here: [Demo Link](https://calculator-ecru-psi.vercel.app/)
 
 ## Features
 

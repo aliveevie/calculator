@@ -5,10 +5,10 @@ import * as math from 'mathjs';
 
 function App() {
   
-  const [displayValue, setDisplayValue] = useState("")
-  const [input, setInput] =   useState("")
-  const [result, setResult] = useState(0)
-
+  const [displayValue, setDisplayValue] = useState("");
+  const [input, setInput] =   useState("");
+  const [result, setResult] = useState(0);
+  
   function handleMath(event){
       setInput(event.target.value)
   }
@@ -39,7 +39,7 @@ function App() {
   return (
     <>
       <div className='calculator'>
-         
+         {input}
       <div className='formularScreen' >
           <input value={displayValue} onChange={handleMath}/>
       </div>
@@ -70,7 +70,7 @@ function App() {
     </div>
     <div className='author'>
           Design and Coded by <br />
-          <a href='https://www.freecodecamp.org/aliveevie' >Ibrahim Abdulkarim</a>
+          <a href='http://ibadulkarim.co/' >Ibrahim Abdulkarim</a>
           
       </div>
   </>
